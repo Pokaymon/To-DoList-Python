@@ -1,0 +1,17 @@
+[
+    {
+        "titulo": "Caminar",
+        "descripcion": "Caminata",
+        "completada": "Pendiente"
+    },
+    {
+        "titulo": "Comer",
+        "descripcion": "Comida",
+        "completada": "Pendiente"
+    },
+    {
+        "titulo": "Ejercicio",
+        "descripcion": "Gimnasio",
+        "completada": "Pendiente"
+    }
+]
