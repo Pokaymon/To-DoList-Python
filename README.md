@@ -4,10 +4,10 @@ Aplicativo para la gestion de Tareas.
 
 # ¿Comó Funciona?
 
-El aplicativo puede gestionar tareas, utiliza una estructura de datos de Lista Simplemente Enlazada (LSE), se utilizo tkinter para la creación de la interfaz de usuario y sqlAlchemy para gestionar la conexion a la base de datos (MySQL).
+El aplicativo puede gestionar tareas, utiliza una estructura de datos de Lista Simplemente Enlazada (LSE), se utilizo customtkinter para la creación de la interfaz de usuario y sqlAlchemy para gestionar la conexion a la base de datos (MySQL).
 
 Asi es el funcionamiento:
-- main.py -> Se conecta a la base de datos y llama a la interfaz grafica (Es importante la existencia correcta de las variables de Entorno).
+- main.py -> Se conecta a la base de datos usando el archivo 'connection.py' y llama a la interfaz grafica (Es importante la existencia correcta de las variables de Entorno).
 - interfazGrafica.py -> Inicia la interfaz grafica usando customtkinter, utiliza los archivos task.py y lista.py, tambien utiliza el archivo 'rubi_thme.json' para manejar un estilo general para los componentes de la interfaz.
 - task.py -> Se define la clase 'Task', con sus respectivos atributos y metodos.
 - lista.py -> Define la clase 'Lista' y utiliza los metodos en el archivo metodos.py.
