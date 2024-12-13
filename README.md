@@ -20,7 +20,7 @@ Requerimientos:
 Es necesario instalar las librerias en el archivo requirements.txt
 
 Variables de Entorno:
-Es necesario crear las variables de entorno en el Cmd o Powershell de Visual
+Es necesario crear las variables de entorno en el PowerShell o Terminal de Visual Studio Code
 
 Crear Variables:
 - $env:MYSQL_USER = "root"
