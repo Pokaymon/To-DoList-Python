@@ -10,6 +10,7 @@ Este aplicativo permite gestionar tareas a través de una **Lista Simplemente En
 
 - **customtkinter**: Para la creación de la interfaz gráfica.
 - **SQLAlchemy**: Para gestionar la conexión y operaciones con la base de datos MySQL.
+- **PyMySQL**: Para gestionar operaciones con la base de datos MySQL.
 
 ### 📂 **Estructura del Proyecto**
 
