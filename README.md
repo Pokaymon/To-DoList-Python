@@ -92,6 +92,13 @@ python -u "main.py"
 ---
 
 <div align="center">
+  <h1>🎥 Tutorial</h1>
+  <a href="https://youtu.be/bSpxm16piBU" target="_blank">
+    <img src="https://img.youtube.com/vi/bSpxm16piBU/0.jpg" alt="Video Tutorial" width="500"/>
+  </a>
+</div>
+
+<div align="center">
   <h1> 🔎 Pruebas</h1>
   <br>
   
