@@ -17,6 +17,10 @@ Este aplicativo permite gestionar tareas a través de una **Lista Simplemente En
   - Se conecta a la base de datos usando `connection.py`.  
   - Llama a la interfaz gráfica definida en `interfazGrafica.py`.  
   - **Nota**: Es crucial configurar correctamente las variables de entorno para que funcione.
+ 
+- **`connection.py`**:
+  - Contiene los metodos para crear la base de datos en caso de que no exista, conectarse a la base de datos usando las variables de entorno y crear la tabla `tasks` con sus respectivas columnas.
+  - Gestiona la conexión utilizando `SQLAlchemy`.
 
 - **`interfazGrafica.py`**:  
   - Inicializa la interfaz gráfica utilizando `customtkinter`.  
@@ -61,6 +65,7 @@ $env:MYSQL_DB = "To_do_list_db"
 ```
 
 **Verificar Variables**
+
 Puedes confirmar que las variables se configuraron correctamente con los siguientes comandos:
 ```bash
 echo $env:MYSQL_USER
@@ -89,7 +94,7 @@ python -u main.py
   <h1> 🔎 Pruebas</h1>
   <br>
   
-  <img src="https://github.com/user-attachments/assets/03076e97-14dc-4eb8-b3a0-f43a2afdbdcc" alt="Descripción de la imagen">
+  <img src="https://github.com/user-attachments/assets/03076e97-14dc-4eb8-b3a0-f43a2afdbdcc" alt="">
   <img src="https://github.com/user-attachments/assets/dd5c2902-21f7-4fb9-bc33-4f36e95555b9" alt="">
   <img src="https://github.com/user-attachments/assets/3fb38f56-8edf-4ade-8e90-b70b1ead5bab" alt="">
   <img src="https://github.com/user-attachments/assets/d13c3d7e-9944-4426-b8af-d8512b6aa766" alt="">
