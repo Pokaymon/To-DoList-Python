@@ -85,7 +85,7 @@ Por ejemplo:
 
 Ejecuta el programa con el siguiente comando:
 ```bash
-python -u main.py
+python -u "main.py"
 ```
 
 ---
