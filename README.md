@@ -2,6 +2,8 @@
 
 Aplicación para la gestión de tareas utilizando Python, con una interfaz gráfica y conexión a una base de datos MySQL.
 
+**Estudiante:** Javier Andrés Socha Maldonado
+
 ---
 
 ## 🚀 **¿Cómo Funciona?**
